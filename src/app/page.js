@@ -8,7 +8,7 @@ import { FiArrowDownRight, FiArrowUpRight } from "react-icons/fi";
 import { RxDragHandleDots2 } from "react-icons/rx";
 
 import roundImg from "../../public/image/home/round-text.png"
-import myself from "../../public/image/home/miself.png"
+import myself from "../../public/image/home/miself.webp"
 import clogo1 from "../../public/image/home/clogo.png"
 import clogo2 from "../../public/image/home/clogo2.png"
 import clogo3 from "../../public/image/home/clogo3.png"

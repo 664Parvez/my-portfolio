@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import bookacallStyle from "../styles/bookacall.module.css"
 
-import bookacallImg from "../../../public/image/book-a-call/miself.png"
+import bookacallImg from "../../../public/image/book-a-call/miself.webp"
 
 const Bookacall = () => {
     return (

@@ -19,7 +19,7 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <h4>Welcome!</h4>
-                        <h2>Designing Digital Delights: Parvez's Portfolio</h2>
+                        <h2>Designing Digital Delights: Parvez Portfolio</h2>
                     </div>
                     <div className="col-lg-6">
                         <Image src={about} width="0" height="0" layout="responsive" alt="" />
@@ -29,7 +29,7 @@ const About = () => {
 
             <div id={aboutStyle.about_second} className="text-center">
                 <h3>Every great design begin with an even better story</h3>
-                <p>Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+                <p>Since beginning my journey as a freelance designer nearly 8 years ago, I have done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I am quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
             </div>
 
             <div id={aboutStyle.about_third}>

@@ -1,0 +1,30 @@
+#bookacall{
+    margin-top: 50px;
+}
+#bookacall img {
+    height: auto !important;
+    width: 100% !important;
+}
+#bookacall h2{
+    font-size: 50px;
+}
+#btn{
+    margin-top: 30px;
+    border: 1px solid #04ff00;
+    color: #ffffff;
+}
+#btn:hover{
+    color: #04ff00;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #bookacall h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #bookacall h2{
+        font-size: 40px;
+    }
+}

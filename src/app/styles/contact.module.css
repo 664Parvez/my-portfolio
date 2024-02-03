@@ -1,0 +1,24 @@
+#contact_first_section a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact_first_section a:hover {
+    color: #04ff00;
+}
+#contact_second_section h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #contact_second_section h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #contact_second_section h2 {
+        font-size: 40px;
+    }
+}

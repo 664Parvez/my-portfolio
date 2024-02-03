@@ -1,0 +1,130 @@
+#navbar{
+    padding: 15px 20px;
+    position: fixed !important;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+#logo img{
+    height: 40px !important;
+    width: 100% !important;
+}
+
+#navItem {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#navItem li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#navItem li:last-child{
+    margin-right: 0;
+}
+#navItem li a:focus{
+    color: #04ff00;
+}
+#navItem li a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-weight: 600;
+}
+#navItem li a:hover{
+    color: #ffffff;
+}
+#navItem li #navbarBtn:hover {
+    color: #ffffff;
+}
+
+#hambar {
+    display: none;
+}
+#hambar_icon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#responsive_navbar_show{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+#responsive_navbar_hide{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+    z-index: 999;
+}
+
+#responsive_navbar_show ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+#responsive_navbar_show ul li{
+    padding: 15px 0;
+}
+#responsive_navbar_show ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+#responsive_navbar_hide ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+#responsive_navbar_hide ul li{
+    padding: 15px 0;
+}
+#responsive_navbar_hide ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #hambar {
+        display: block;
+    }
+    #navAllItem {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #hambar {
+        display: block;
+    }
+    #navAllItem {
+        display: none;
+    }
+}

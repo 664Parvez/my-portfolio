@@ -1,0 +1,38 @@
+#about_first {
+    margin-top: 50px;
+}
+#about_first h4{
+    color: #04ff00;
+}
+#about_first h2{
+    font-size: 50px;
+}
+#about_first img{
+    border-radius: 15px;
+}
+
+#about_second {
+    margin-top: 50px;
+}
+#about_second h3 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#about_third {
+    margin-top: 50px;
+}
+#about_third h2{
+    font-size: 50px;
+}
+#about_third h3{
+    font-size: 40px;
+}
+#about_third ul {
+    padding-left: 0;
+}
+#about_third ul li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}

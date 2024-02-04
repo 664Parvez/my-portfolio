@@ -20,7 +20,7 @@ const Contact = () => {
 
             <div className="row mt-5" id={contactStyle.contact_second_section}>
                 <div className="col-lg-3">
-                    <h2 className="mt-4">Let's Talk</h2>
+                    <h2 className="mt-4">Let us Talk</h2>
                 </div>
                 <div className="col-lg-9">
                     <form action="">

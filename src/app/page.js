@@ -89,7 +89,7 @@ export default function Home() {
           <div className="col-lg-6">
             <p><FaRegUser /> ABOUT ------------------- </p>
             <h2>Every great design begin with an even better story</h2>
-            <p className="mb-5">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+            <p className="mb-5">Since beginning my journey as a freelance designer nearly 8 years ago, I have done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I am quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
           </div>
           <div className="col-lg-6">
             <div className="text-end">

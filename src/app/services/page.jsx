@@ -24,7 +24,7 @@ const Service = () => {
             <div id={serviceStyle.service_first}>
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
-                        <h3>Designing Digital Delights: Parvez's Portfolio</h3>
+                        <h3>Designing Digital Delights: Parvez s Portfolio</h3>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <Image src={service} width="0" height="0" layout="responsive" alt="" />

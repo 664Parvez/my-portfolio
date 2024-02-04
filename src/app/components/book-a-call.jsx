@@ -22,7 +22,7 @@ const Bookacall = () => {
                             <label htmlFor="" className="mt-4">Email</label>
                             <input type="email" placeholder="Enter your email" className="form-control" />
 
-                            <label htmlFor="" className="mt-4">I'm interested in</label>
+                            <label htmlFor="" className="mt-4">I am interested in</label>
                             <input type="text" placeholder="Enter your interested" className="form-control" />
 
                             <label htmlFor="" className="mt-4">Message</label>

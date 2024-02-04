@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row" id={footerStyle.topFooter}>
                     <div className="col-lg-4 mt-4">
                         <p>Phosflu orescently redefine cross the functional data through enabled mind share.ess products.</p>
-                        <h2 className="mt-5" id={footerStyle.footerChat}><Link href="/contact">Let's Chat <FaLocationArrow /></Link></h2>
+                        <h2 className="mt-5" id={footerStyle.footerChat}><Link href="/contact">Let s Chat <FaLocationArrow /></Link></h2>
                     </div>
                     <div className="col-lg-4 mt-4">
                         <ul id={footerStyle.footerItem}>
@@ -39,7 +39,7 @@ const Footer = () => {
             
             <div className="row">
                 <div className="col-lg-6">
-                    <p>creativegigs © 2023, All Rights Reserved</p>
+                    <p>parvez © 2023, All Rights Reserved</p>
                 </div>
                 <div className="col-lg-6 text-end">
                     <ul id={footerStyle.socialMedia}>

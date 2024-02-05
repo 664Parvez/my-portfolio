@@ -1,6 +1,11 @@
+"use client"
+
 import React from "react";
 import Image from "next/image"
 import Link from "next/link"
+import {motion} from "framer-motion"
+
+
 import Roundimg from "../../../public/image/contact/contact-round-text.png"
 
 import Pageheading from "../components/page-heading";
@@ -9,18 +14,46 @@ import contactStyle from "../styles/contact.module.css"
 
 const Contact = () => {
 
+    const fontUp = {
+        start: {
+            y: 50,
+            opacity: 0
+        },
+        end: {
+            y: 0,
+            opacity: 1
+        }
+    }
+
     return (
         <>
             <Pageheading title="Contact With Me" image={Roundimg} />
 
             <div className="mt-5" id={contactStyle.contact_first_section}>
-                <h2>Get in Touch</h2>
-                <Link href="mailto:parvezrabbi664@gmail.com"><p>parvezrabbi664@gmail.com</p></Link>
+                <motion.h2
+                    initial="start"
+                    animate="end"
+                    variants={fontUp}
+                    transition={{duration: .5}}
+                >Get in Touch</motion.h2>
+                <motion.span 
+                    initial="start"
+                    animate="end"
+                    variants={fontUp}
+                    transition={{duration: .5, delay: .4}}
+                >
+                    <Link href="mailto:parvezrabbi664@gmail.com"><p>parvezrabbi664@gmail.com</p></Link>
+                </motion.span>
             </div>
 
             <div className="row mt-5" id={contactStyle.contact_second_section}>
                 <div className="col-lg-3">
-                    <h2 className="mt-4">Let us Talk</h2>
+                    <motion.h2
+                        initial="start"
+                        whileInView="end"
+                        variants={fontUp}
+                        transition={{duration: .5}}
+                    className="mt-4">Let us Talk</motion.h2>
                 </div>
                 <div className="col-lg-9">
                     <form action="">

@@ -4,6 +4,7 @@
 #bookacall img {
     height: auto !important;
     width: 100% !important;
+    transform: rotateY(180deg);
 }
 #bookacall h2{
     font-size: 50px;

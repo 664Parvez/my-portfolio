@@ -19,7 +19,7 @@
 #footerChat a{
     font-size: 50px;
     text-decoration: none;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-weight: 700;
     transition: .3s;
 }

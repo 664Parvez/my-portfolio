@@ -3,3 +3,5 @@ https://wpriverthemes.com/drake/
 https://preview.themeforest.net/item/qurifolio-personal-creative-portfolio/full_screen_preview/50271712?_ga=2.33708449.1859485506.1706192848-185194174.1696783301&_gac=1.128101118.1704099774.CjwKCAiA4smsBhAEEiwAO6DEjQcCZrkaHUdnLEZBoZ-RyxFm8wfE8KXuoQVaXJYBF8caRpJYuCwIjRoCUCAQAvD_BwE
 
 http://preview.themeforest.net/item/harington-creative-portfolio-theme/full_screen_preview/42929633?_ga=2.4348211.1859485506.1706192848-185194174.1696783301&_gac=1.25265487.1704099774.CjwKCAiA4smsBhAEEiwAO6DEjQcCZrkaHUdnLEZBoZ-RyxFm8wfE8KXuoQVaXJYBF8caRpJYuCwIjRoCUCAQAvD_BwE
+
+npm install --legacy-peer-deps

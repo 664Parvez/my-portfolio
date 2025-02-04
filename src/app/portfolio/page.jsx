@@ -26,6 +26,16 @@ import port16 from "../../../public/image/portfolio/p16.jpg"
 import port17 from "../../../public/image/portfolio/p17.jpg"
 import port18 from "../../../public/image/portfolio/p18.jpg"
 import port19 from "../../../public/image/portfolio/p19.jpg"
+import port20 from "../../../public/image/portfolio/p20.jpg"
+import port21 from "../../../public/image/portfolio/p21.jpg"
+import port22 from "../../../public/image/portfolio/p22.jpg"
+import port23 from "../../../public/image/portfolio/p23.jpg"
+import port24 from "../../../public/image/portfolio/p24.jpg"
+import port25 from "../../../public/image/portfolio/p25.jpg"
+import port26 from "../../../public/image/portfolio/p26.jpg"
+import port27 from "../../../public/image/portfolio/p27.jpg"
+import port28 from "../../../public/image/portfolio/p28.jpg"
+// import port29 from "../../../public/image/portfolio/p29.jpg"
 
 const Portfolio = () => {
     return (
@@ -54,32 +64,47 @@ const Portfolio = () => {
                     <div className="tab-pane fade show active" id="html" role="tabpanel" aria-labelledby="html-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://664parvez.github.io/jamidari-website/">
+                                <Link href="https://buynsell.jamidaribd.com/" target="__blank">
                                     <Image src={port4} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://664parvez.github.io/go-keto-gummies-landing-page/">
+                                <Link href="https://www.jnsstudyabroad.com/" target="__blank">
+                                    <Image src={port20} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://www.gksoft.co.uk/" target="__blank">
+                                    <Image src={port21} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://aspireglobalpathways.com/" target="__blank">
+                                    <Image src={port22} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://664parvez.github.io/go-keto-gummies-landing-page/" target="__blank">
                                     <Image src={port5} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://664parvez.github.io/saatva-landing-page-two/">
+                                <Link href="https://664parvez.github.io/saatva-landing-page-two/" target="__blank">
                                     <Image src={port6} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://www.iasbd.co.uk/">
+                                <Link href="https://www.iasbd.co.uk/" target="__blank">
                                     <Image src={port7} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://www.pictureclippingpath.com/">
+                                <Link href="https://www.pictureclippingpath.com/" target="__blank">
                                     <Image src={port8} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://664parvez.github.io/GSAP-website-one/">
+                                <Link href="https://664parvez.github.io/GSAP-website-one/" target="__blank">
                                     <Image src={port12} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
@@ -89,12 +114,12 @@ const Portfolio = () => {
                     <div className="tab-pane fade" id="react" role="tabpanel" aria-labelledby="react-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://digitalcave.netlify.app/">
+                                <Link href="https://digitalcave.netlify.app/" target="__blank">
                                     <Image src={port10} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://addison-interior.netlify.app/">
+                                <Link href="https://addison-interior.netlify.app/" target="__blank">
                                     <Image src={port11} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
@@ -104,22 +129,27 @@ const Portfolio = () => {
                     <div className="tab-pane fade" id="next" role="tabpanel" aria-labelledby="next-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://apple-ecommerce-six.vercel.app/">
+                                <Link href="https://artevo-interior.vercel.app/" target="__blank">
+                                    <Image src={port23} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://apple-ecommerce-six.vercel.app/" target="__blank">
                                     <Image src={port1} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://clipping-path-website-final.vercel.app/">
+                                <Link href="https://clipping-path-website-final.vercel.app/" target="__blank">
                                     <Image src={port2} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://dms-live-tv.vercel.app/">
+                                <Link href="https://dms-live-tv.vercel.app/" target="__blank">
                                     <Image src={port3} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://get-course.vercel.app/">
+                                <Link href="https://get-course.vercel.app/" target="__blank">
                                     <Image src={port9} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
@@ -129,37 +159,62 @@ const Portfolio = () => {
                     <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
-                                <Link href="http://www.beonscale.com/">
+                                <Link href="https://al-hajar.com/" target="__blank">
+                                    <Image src={port24} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://inseducationbd.com/" target="__blank">
+                                    <Image src={port25} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://famousin60days.com/" target="__blank">
+                                    <Image src={port26} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://sashippingprepcenter.com/" target="__blank">
+                                    <Image src={port27} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://saprintingshop.com/" target="__blank">
+                                    <Image src={port28} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="http://www.beonscale.com/" target="__blank">
                                     <Image src={port13} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://outsourcingtrainingbd.com/">
+                                <Link href="https://outsourcingtrainingbd.com/" target="__blank">
                                     <Image src={port14} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://ajmerigemshouse.com/">
+                                <Link href="https://ajmerigemshouse.com/" target="__blank">
                                     <Image src={port15} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://artevointerior.com/">
+                                <Link href="https://artevointerior.com/" target="__blank">
                                     <Image src={port16} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://www.ukdreamseducation.com/">
+                                <Link href="https://www.ukdreamseducation.com/" target="__blank">
                                     <Image src={port17} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://dreamlandbd.com/">
+                                <Link href="https://dreamlandbd.com/" target="__blank">
                                     <Image src={port18} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
-                                <Link href="https://ajaagro.com/">
+                                <Link href="https://ajaagro.com/" target="__blank">
                                     <Image src={port19} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>

@@ -35,6 +35,9 @@ import port25 from "../../../public/image/portfolio/p25.jpg"
 import port26 from "../../../public/image/portfolio/p26.jpg"
 import port27 from "../../../public/image/portfolio/p27.jpg"
 import port28 from "../../../public/image/portfolio/p28.jpg"
+import port29 from "../../../public/image/portfolio/p29.jpg"
+import port30 from "../../../public/image/portfolio/p30.jpg"
+import port31 from "../../../public/image/portfolio/p31.jpg"
 // import port29 from "../../../public/image/portfolio/p29.jpg"
 
 const Portfolio = () => {
@@ -63,6 +66,16 @@ const Portfolio = () => {
                 <div className="tab-content" id={portfolioStyle.myTabContent}>
                     <div className="tab-pane fade show active" id="html" role="tabpanel" aria-labelledby="html-tab">
                         <div className="row mt-5">
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://664parvez.github.io/LaRosa-restaurant/" target="__blank">
+                                    <Image src={port30} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://ctglawyers.com.au/" target="__blank">
+                                    <Image src={port31} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
                             <div className="col-lg-4 mt-4">
                                 <Link href="https://buynsell.jamidaribd.com/" target="__blank">
                                     <Image src={port4} width="0" height="0" layout="responsive" alt="" />
@@ -158,6 +171,11 @@ const Portfolio = () => {
 
                     <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
                         <div className="row mt-5">
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://inseducationbd.com/" target="__blank">
+                                    <Image src={port29} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
                             <div className="col-lg-4 mt-4">
                                 <Link href="https://al-hajar.com/" target="__blank">
                                     <Image src={port24} width="0" height="0" layout="responsive" alt="" />

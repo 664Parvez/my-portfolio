@@ -38,7 +38,12 @@ import port28 from "../../../public/image/portfolio/p28.jpg"
 import port29 from "../../../public/image/portfolio/p29.jpg"
 import port30 from "../../../public/image/portfolio/p30.jpg"
 import port31 from "../../../public/image/portfolio/p31.jpg"
-// import port29 from "../../../public/image/portfolio/p29.jpg"
+import port32 from "../../../public/image/portfolio/p32.png"
+import port33 from "../../../public/image/portfolio/p33.png"
+import port34 from "../../../public/image/portfolio/shopify-1.png"
+import port35 from "../../../public/image/portfolio/shopify-2.png"
+import port36 from "../../../public/image/portfolio/shopify-3.png"
+import port37 from "../../../public/image/portfolio/shopify-4.png"
 
 const Portfolio = () => {
     return (
@@ -61,9 +66,13 @@ const Portfolio = () => {
                     <li className="nav-item" role="presentation">
                         <button className="nav-link" id="wordpress-tab tabBtn" data-bs-toggle="tab" data-bs-target="#wordpress" type="button" role="tab" aria-controls="wordpress" aria-selected="false">WordPress</button>
                     </li>
+                    <li className="nav-item" role="presentation">
+                        <button className="nav-link" id="shopify-tab tabBtn" data-bs-toggle="tab" data-bs-target="#shopify" type="button" role="tab" aria-controls="shopify" aria-selected="false">Shopify</button>
+                    </li>
                 </ul>
 
                 <div className="tab-content" id={portfolioStyle.myTabContent}>
+
                     <div className="tab-pane fade show active" id="html" role="tabpanel" aria-labelledby="html-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
@@ -172,6 +181,11 @@ const Portfolio = () => {
                     <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
                         <div className="row mt-5">
                             <div className="col-lg-4 mt-4">
+                                <Link href="https://new.ausgreensolar.com.au/" target="__blank">
+                                    <Image src={port33} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
                                 <Link href="https://inseducationbd.com/" target="__blank">
                                     <Image src={port29} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
@@ -227,6 +241,11 @@ const Portfolio = () => {
                                 </Link>
                             </div>
                             <div className="col-lg-4 mt-4">
+                                <Link href="https://wavebymehnaz.com/" target="__blank">
+                                    <Image src={port32} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
                                 <Link href="https://dreamlandbd.com/" target="__blank">
                                     <Image src={port18} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
@@ -234,6 +253,31 @@ const Portfolio = () => {
                             <div className="col-lg-4 mt-4">
                                 <Link href="https://ajaagro.com/" target="__blank">
                                     <Image src={port19} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="tab-pane fade" id="shopify" role="tabpanel" aria-labelledby="shopify-tab">
+                        <div className="row mt-5">
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://www.saifursbooks.com/" target="__blank">
+                                    <Image src={port37} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://liveshoppinguk.co.uk/" target="__blank">
+                                    <Image src={port35} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://nexarapulse.com/" target="__blank">
+                                    <Image src={port36} width="0" height="0" layout="responsive" alt="" />
+                                </Link>
+                            </div>
+                            <div className="col-lg-4 mt-4">
+                                <Link href="https://levanya.com/" target="__blank">
+                                    <Image src={port34} width="0" height="0" layout="responsive" alt="" />
                                 </Link>
                             </div>
                         </div>
